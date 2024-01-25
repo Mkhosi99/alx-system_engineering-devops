@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#Write a Bash script that displays Best School 10 times.
+
+#1. The first line of the script is a shebang line that tells the shell interpreter to use the bash shell to run the script.
+#2. The second line of the script is a comment that explains what the script does.
+#3. The third line of the script is a variable assignment that tells the shell interpreter to use the variable counter as a counter.
+#4. The fourth line of the script is a while loop that will execute as long as the value of count is less than or equal to 10.
+#5. The fifth line of the script is a command that outputs the value of count.
+#6. The sixth line of the script is a command that increments the value of count by 1.
+
+counter=1
+
+while [ $counter -le 10 ]
+do
+    echo "Best School"
+    counter=$((counter+1))
+done
